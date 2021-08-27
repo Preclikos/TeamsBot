@@ -1,0 +1,51 @@
+{
+  "type": "ColumnSet",
+  "columns": [
+    {
+      "type": "Column",
+      "width": "stretch",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "{value}",
+                  "width": "26px",
+                  "spacing": "None",
+                  "size": "Small"
+                }
+              ],
+              "$data": "{pipelines}",
+              "spacing": "None"
+            }
+          ],
+          "horizontalAlignment": "Left"
+        }
+      ]
+    },
+    {
+      "type": "Column",
+      "width": "stretch",
+      "items": [
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.Submit",
+              "title": "Resume",
+              "data": "{manualJobPlay}"
+            }
+          ],
+          "horizontalAlignment": "Right"
+        }
+      ],
+      "$when": "{containsManualJob == true}"
+    }
+  ]
+}

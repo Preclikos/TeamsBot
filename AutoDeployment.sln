@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoDeployment", "src\AutoDeployment\AutoDeployment.csproj", "{1BF8248B-AD21-4A5E-87C4-15E61FF23092}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitLabApiClient", "src\GitLabApiClient\GitLabApiClient.csproj", "{E7E0FE29-74A1-45C3-A940-A21ECE840AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF8248B-AD21-4A5E-87C4-15E61FF23092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF8248B-AD21-4A5E-87C4-15E61FF23092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF8248B-AD21-4A5E-87C4-15E61FF23092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF8248B-AD21-4A5E-87C4-15E61FF23092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E0FE29-74A1-45C3-A940-A21ECE840AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E0FE29-74A1-45C3-A940-A21ECE840AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E0FE29-74A1-45C3-A940-A21ECE840AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E0FE29-74A1-45C3-A940-A21ECE840AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D260173-DE2E-477E-A929-49A30841EE1D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
+WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+COPY ./src/AutoDeployment/AutoDeployment.csproj ./src/AutoDeployment/AutoDeployment.csproj
+COPY ./src/GitLabApiClient/GitLabApiClient.csproj ./src/GitLabApiClient/GitLabApiClient.csproj
+
+# Add other csproj files above
+RUN dotnet restore ./src/AutoDeployment -s https://api.nuget.org/v3/index.json
+
+# Copy sources and build
+COPY ./src/. ./src/
+
+# build
+RUN dotnet publish ./src/AutoDeployment -r linux-arm -o out

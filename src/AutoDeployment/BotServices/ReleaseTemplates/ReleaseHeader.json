@@ -1,0 +1,60 @@
+{
+	"type": "Container",
+	"items": [
+		{
+			"type": "ColumnSet",
+			"columns": [
+				{
+					"items": [
+						{
+							"type": "Image",
+							"altText": "",
+							"url": "{mergeStateImage}",
+							"horizontalAlignment": "Center",
+							"spacing": "Small",
+							"width": "55px"
+						}
+					],
+					"type": "Column",
+					"width": "auto",
+					"spacing": "Medium"
+				},
+				{
+					"type": "Column",
+					"width": "auto",
+					"spacing": "None",
+					"items": [
+						{
+							"type": "TextBlock",
+							"text": "{name}",
+							"horizontalAlignment": "Center",
+							"size": "Medium",
+							"weight": "Bolder"
+						}
+					],
+					"horizontalAlignment": "Center",
+					"verticalContentAlignment": "Center"
+				},
+				{
+					"type": "Column",
+					"width": "stretch",
+					"items": [
+						{
+							"type": "TextBlock",
+							"text": "{mergeName}",
+							"horizontalAlignment": "Right",
+							"spacing": "None",
+							"weight": "Bolder"
+						}
+					],
+					"spacing": "None",
+					"horizontalAlignment": "Right",
+					"height": "stretch",
+					"verticalContentAlignment": "Center"
+				}
+			]
+		},
+		{SubSection}
+	],
+	"separator": true
+}

@@ -1,0 +1,45 @@
+{
+  "type": "ColumnSet",
+  "columns": [
+    {
+      "type": "Column",
+      "width": "auto",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Approved by:"
+        }
+      ],
+      "verticalContentAlignment": "Center"
+    },
+    {
+      "type": "Column",
+      "width": "auto",
+      "items": [
+        {
+          "type": "Image",
+          "altText": "",
+          "url": "{approvedImageUrl}",
+          "style": "Person",
+          "size": "Small"
+        }
+      ],
+      "$when": "{approved == true}"
+    },
+    {
+      "type": "Column",
+      "width": "stretch",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "{approvedBy}",
+          "horizontalAlignment": "Left",
+          "weight": "Bolder"
+        }
+      ],
+      "horizontalAlignment": "Center",
+      "verticalContentAlignment": "Center",
+      "height": "stretch"
+    }
+  ]
+}

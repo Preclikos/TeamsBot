@@ -1,0 +1,22 @@
+{
+  "type": "Container",
+  "items": [
+    {
+      "type": "TextBlock",
+      "text": "Select group for new Release:"
+    },
+    {
+      "id": "selectedGroup",
+      "type": "Input.ChoiceSet",
+      "placeholder": "Select",
+      "choices": [
+        {
+          "$data": "{projectGroups}",
+          "title": "{name}",
+          "value": "{value}"
+        }
+      ]
+
+    }
+  ]
+}

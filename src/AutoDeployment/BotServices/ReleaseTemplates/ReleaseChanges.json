@@ -1,0 +1,29 @@
+{
+  "type": "ColumnSet",
+  "columns": [
+    {
+      "type": "Column",
+      "width": "auto",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Status: {status}",
+          "color": "{if(changes ==  0, 'attention', 'good')}"
+        }
+      ]
+    },
+    {
+      "type": "Column",
+      "width": "stretch",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Changes: {changes}",
+          "color": "{if(changes ==  0, 'attention', 'good')}",
+          "horizontalAlignment": "Right"
+        }
+      ],
+      "horizontalAlignment": "Right"
+    }
+  ]
+}

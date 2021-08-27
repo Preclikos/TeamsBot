@@ -1,0 +1,17 @@
+2020-03-19 14:06:54.926 +01:00 [INF] Starting up
+2020-03-19 14:06:56.947 +01:00 [INF] User profile is available. Using 'C:\Users\jan.husak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-19 14:07:00.682 +01:00 [INF] Found dedicated project finance in Group elis.
+2020-03-19 14:07:00.987 +01:00 [INF] Found 1 in primary group Finance.
+2020-03-19 14:07:01.154 +01:00 [INF] Found 8 subGroups in primary Group.
+2020-03-19 14:07:01.302 +01:00 [INF] Found 4 subGroups in Group Common Help Tools.
+2020-03-19 14:07:01.444 +01:00 [INF] Found 1 subGroups in Group DeploymentTest.
+2020-03-19 14:07:01.611 +01:00 [INF] Found 4 subGroups in Group External Services.
+2020-03-19 14:07:01.772 +01:00 [INF] Found 5 subGroups in Group Finis.
+2020-03-19 14:07:01.840 +01:00 [INF] Found 0 subGroups in Group Ledger.
+2020-03-19 14:07:02.217 +01:00 [INF] Found 9 subGroups in Group Microservice.
+2020-03-19 14:07:02.476 +01:00 [INF] Found 7 subGroups in Group Nuget.
+2020-03-19 14:07:02.654 +01:00 [INF] Found 6 subGroups in Group Nuget Clients.
+2020-03-19 14:07:02.914 +01:00 [INF] Starting CronJobService: PipelineTracker
+2020-03-19 14:07:02.923 +01:00 [INF] Starting CronJobService: TagJobFinder
+2020-03-19 14:07:02.925 +01:00 [INF] Starting CronJobService: DailyFinisRelease
+2020-03-19 14:07:02.926 +01:00 [INF] Starting CronJobService: FinisReleaseRandomUserSelect

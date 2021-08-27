@@ -1,0 +1,9 @@
+{
+  "type": "Container",
+  "items": [
+    {
+      "type": "TextBlock",
+      "text": "Release {version} for Group {group} was Created."
+    }
+  ]
+}
